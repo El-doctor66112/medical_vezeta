@@ -25,8 +25,8 @@ SECRET_KEY = '5^0j5b@r#_!85pe%2&znw83mzan46x(0uyc=1vpdz(ptk-wdpv'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['vezeta.herokuapp.com', '127.0.0.1']
+DEBUG = False
 
 # Application definition
 

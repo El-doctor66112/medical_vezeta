@@ -43,8 +43,8 @@ class Profile(models.Model):
     twitter = models.CharField(max_length=100, blank=True, null=True)
     google = models.CharField(max_length=100, blank=True, null=True)
     '''
-    join_new = models.DateTimeField(
-        "join us", auto_now_add=True, )
+    #join_new = models.DateTimeField(
+     #   "join us", auto_now_add=True, )
     type_of_person = models.CharField(
         "gender", choices=TYPE_OF_PERSON, max_length=50)
     doctor = models.CharField(
